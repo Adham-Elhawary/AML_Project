@@ -42,9 +42,40 @@ This project implements and compares three recommendation strategies:
    ```bash
    git clone https://github.com/your-username/movie-recommender.git
    cd movie-recommender
-data/
-  ├── movies.csv
-  ├── ratings.csv
-  ├── links.csv
-  └── tags.csv
+---
+
+## 📊 Exploratory Data Analysis
+
+- 📦 **Box Plots**: Show rating distribution across users and movies.
+- 🎭 **Genre Frequency Bar Charts**: Visualize the number of movies per genre.
+- 🌡️ **Correlation Heatmaps**: Understand feature relationships (e.g., average rating vs. release year).
+- 👤 **User Behavior Timelines**: Plot user rating activity over time.
+
+---
+
+## 📈 Evaluation Metrics
+
+### ✅ **Rating Prediction**
+- 📉 **MSE (Mean Squared Error)**
+- 📉 **MAE (Mean Absolute Error)**
+
+### ✅ **Classification-Based Evaluation**  
+(Using a threshold to classify ratings as like/dislike, e.g., ≥ 3.5 is "like")
+
+- 🎯 **Precision**
+- 🎯 **Recall**
+- 🎯 **F1-Score**
+- 📈 **AUC-ROC Curve**
+- 📦 **Confusion Matrix**
+
+---
+
+## 📉 Visualizations
+
+- 🎯 **Accuracy Comparison**: Bar charts showing performance of different algorithms (Content-Based, KNN, SVD, Hybrid).
+- 🎬 **Similarity Heatmaps**: Visualize similarity scores between movies or users.
+- 📦 **Confusion Matrices**: Evaluate classification predictions.
+- 📈 **ROC Curves**: Assess the trade-off between true positive and false positive rates for binary outcomes.
+
+
 
