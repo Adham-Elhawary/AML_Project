@@ -42,4 +42,9 @@ This project implements and compares three recommendation strategies:
    ```bash
    git clone https://github.com/your-username/movie-recommender.git
    cd movie-recommender
+data/
+  ├── movies.csv
+  ├── ratings.csv
+  ├── links.csv
+  └── tags.csv
 
